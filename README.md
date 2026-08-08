@@ -1,11 +1,9 @@
 # Fake News Detection - EDP
 
-
 This repository contains my weekly progress for the EDP Internship. The goal is to build a Fake News Detection system using Machine Learning.
 
-
-
 ## Week 1
+
 - Created project structure
 - Added required folders
 - Installed required Python libraries
@@ -13,36 +11,47 @@ This repository contains my weekly progress for the EDP Internship. The goal is 
 
 ---
 
- Week 2
- Topics Learned
+## Week 2
+
+### Topics Learned
+
 - Data Loading with Pandas
+- Exploratory Data Analysis (EDA)
 - Data Preparation
+- Feature and Label Creation
 - Train-Test Split
+- TF-IDF Vectorization
 - Logistic Regression
 - Model Evaluation
 
- Dataset
+### Dataset
+
 - Fake.csv
 - True.csv
 
-Total Records: **44,898**
+**Total Records:** 44,898
 
- Machine Learning Model
+### Machine Learning Model
+
 - Logistic Regression
 
+### Results
 
-Folder Structure
+- Accuracy: **98.27%**
 
+### Folder Structure
 
+```
 Data/
 Models/
 notebooks/
 src/
 README.md
 Requirements.txt
+```
 
+### Libraries Used
 
- Libraries Used
 - pandas
 - numpy
 - matplotlib
@@ -50,3 +59,9 @@ Requirements.txt
 - joblib
 
 ---
+
+## Next Steps
+
+- Build Spam Classifier
+- Improve Fake News Detection
+- Deploy the model
