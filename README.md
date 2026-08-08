@@ -59,9 +59,3 @@ Requirements.txt
 - joblib
 
 ---
-
-## Next Steps
-
-- Build Spam Classifier
-- Improve Fake News Detection
-- Deploy the model
