@@ -48,3 +48,55 @@ notebooks/
 src/
 README.md
 Requirements.txt
+
+---
+
+## Week 3
+
+### Topics Learned
+
+- Text Preprocessing
+- TF-IDF Vectorization
+- Naive Bayes Classification
+- Train-Test Split
+- Model Evaluation
+
+### Project
+
+Built an SMS Spam Classifier using the SMS Spam Collection dataset.
+
+### Dataset
+
+- Total Messages: **5,572**
+- Ham Messages: **4,825**
+- Spam Messages: **747**
+
+### Preprocessing
+
+- Converted text to lowercase
+- Removed punctuation and special characters
+- Removed extra spaces
+- Converted labels:
+  - Ham → 0
+  - Spam → 1
+
+### Model
+
+**Multinomial Naive Bayes**
+
+### Results
+
+| Metric | Score |
+|---|---:|
+| Accuracy | **96.32%** |
+| Spam Precision | **1.00** |
+| Spam Recall | **0.72** |
+| Spam F1-Score | **0.84** |
+
+### Files Added
+
+- `Data/SMSSpamCollection`
+- `Data/spam_dataset_processed.csv`
+- `Models/spam_classifier.pkl`
+- `Models/spam_tfidf_vectorizer.pkl`
+- `notebooks/Week3_Spam_Classifier.ipynb`
