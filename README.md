@@ -41,21 +41,10 @@ This repository contains my weekly progress for the EDP Internship. The goal is 
 
 ### Folder Structure
 
-```
+```text
 Data/
 Models/
 notebooks/
 src/
 README.md
 Requirements.txt
-```
-
-### Libraries Used
-
-- pandas
-- numpy
-- matplotlib
-- scikit-learn
-- joblib
-
----
