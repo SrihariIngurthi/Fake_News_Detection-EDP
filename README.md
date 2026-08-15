@@ -39,18 +39,6 @@ This repository contains my weekly progress for the EDP Internship. The goal is 
 
 - Accuracy: **98.27%**
 
-### Folder Structure
-
-```text
-Data/
-Models/
-notebooks/
-src/
-README.md
-Requirements.txt
-
----
-
 ## Week 3
 
 ### Topics Learned
@@ -100,3 +88,15 @@ Built an SMS Spam Classifier using the SMS Spam Collection dataset.
 - `Models/spam_classifier.pkl`
 - `Models/spam_tfidf_vectorizer.pkl`
 - `notebooks/Week3_Spam_Classifier.ipynb`
+
+
+### Folder Structure
+```text
+Data/
+Models/
+notebooks/
+src/
+README.md
+Requirements.txt 
+
+---
